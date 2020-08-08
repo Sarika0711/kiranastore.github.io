@@ -1,0 +1,42 @@
+<style>
+	.navbar{
+     background: linear-gradient(
+	rgba(0,0,0,0.7),
+	rgba(0,0,0,0.7)
+	);
+}
+
+
+.nav-item::after{content:'';display:block;width:0px;height:2px;background:#fec400;transition: 0.2s;}
+.nav-item:hover::after{width:100%;}
+
+</style>
+
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+		<div class="container-fluid">
+		<a href="" class="navbar-brand text-white " style="float: left;" ><img src="../img/logo.png" alt=""></a>
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarid">
+			<SPAN class="navbar-toggler-icon"></SPAN>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarid">
+		<ul class="navbar-nav text-center ml-auto ">
+			<li class="nav-item">
+				<a href="whome.php" class="nav-link text-white" style="font-size: 15px">Home</a>
+			</li>
+			
+			
+			<li class="nav-item">
+				<a href="../contact.php" class="nav-link text-white" style="font-size: 15px">Contact Us</a>
+			</li>
+			<li class="nav-item">
+				<a href="../services.php" class="nav-link text-white" style="font-size: 15px">Services</a>
+			</li>
+			<li class="nav-item">
+				<a href="../logout.php" class="nav-link text-white" style="font-size: 15px">Logout</a>
+			</li>
+			
+		</ul>
+		</div>
+		</div>
+		</nav>
